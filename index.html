@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ferramente para descriptografar e criptografar textos.">
+    <title>Site de Criptografia</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="container-cabecalho">
+        <nav class="logos-cabecalho">
+            <ul class="links">
+                <li class="nav_link">
+                    <a class="logo" href="https://www.alura.com.br/"><img src="/imgs/logo-alura.png"
+                            alt="Logo da empresa Alura" width="100px"></a>
+                </li>
+                <li class="nav_link">
+                    <a class="logo" href="https://www.oracle.com/br/education/oracle-next-education/"><img
+                            src="imgs/oracle-logo.png" alt="Logo da empresa Oracle" width="250px"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        <section>
+            <div class="container-titulo-principal">
+                <h1>Des/Criptografar Texto</h1>
+            </div>
+        </section>
+        <br>
+    <section class="container-textareas">
+        <div class="container-input-texto1">
+            <textarea class="input-texto-area1" cols="75" rows="10" placeholder="Digite seu texto aqui...
+Sem acentuação
+Sem caracteres maiúsculos"></textarea>
+        </div>  
+        <div class="container-input-texto2">
+            <textarea class="input-texto-area2" placeholder="Sua mensagem aparece aqui!" cols="75" rows="10"></textarea>
+        </div>
+    </section>  
+    <br><br>
+        <section>
+            <div class="botoes">
+                <button class="btn" onclick="botaoEncriptar()">
+                    Criptografar texto
+                </button>
+                <button class="btn-copiar" onclick="copiar()">
+                    Copiar
+                </button>
+                <button class="btn" onclick="botaoDescriptografar()">
+                    Descriptografar texto
+                </button>
+            </div>
+        </section>
+        <br><br>
+    </main>
+    <footer class="rodape-simples">
+        <div class="rodape-conteudo">
+            <a href="https://www.linkedin.com/in/lopes-henriquee/" target="_blank">
+                <img src="/imgs/logo-linkedin.jpg" alt="LinkedIn" class="rodape-img">
+            </a>
+            <h3>Henrique Lopes</h3>
+            <a href="https://github.com/lopeshenriquee" target="_blank">
+                <img src="/imgs/logo-github.webp" alt="GitHub" class="rodape-img">
+            </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
