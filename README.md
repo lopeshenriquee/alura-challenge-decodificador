@@ -7,12 +7,7 @@ Este projeto faz parte do **Programa Oracle Next Education**, em parceria com a 
 
 ### Objetivo
 
-O objetivo principal deste desafio foi criar uma ferramenta online onde os usuários podem facilmente criptografar e descriptografar textos, aplicando conceitos de segurança e manipulação de dados.
-
-### Funcionalidades
-
-- **Interface Amigável**: Design simples e intuitivo, com campos para entrada de texto e botões para realizar as ações de criptografia e descriptografia.
-- **Respostas em Tempo Real**: Mostra o resultado da criptografia e descriptografia instantaneamente, permitindo uma experiência interativa e fluida.
+O objetivo principal deste desafio foi criar uma ferramenta online onde os usuários podem facilmente criptografar e descriptografar textos.
 
 ### Tecnologias Utilizadas
 
