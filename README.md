@@ -12,5 +12,5 @@ O objetivo principal deste desafio foi criar uma ferramenta online onde os usuá
 ### Tecnologias Utilizadas
 
 - **HTML**: Estrutura básica do site.
-- **CSS**: Estilização.
+- **CSS**: Estilização dos componentes.
 - **JavaScript**: Implementação da lógica de criptografia e descriptografia.
